@@ -30,7 +30,7 @@ void printInit(void)
 
   	Runs the shell: uses other functions to read, parse, and execute each line.
 =================================*/
-int main()
+int main(void)
 {
 	char line[100];
 	char **args;
