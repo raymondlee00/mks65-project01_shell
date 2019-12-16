@@ -72,7 +72,7 @@ int main()
 					free(cmds);
 					free(args[0]);
 					free(args);
-					return 0;
+					return(EXIT_SUCCESS);
 				}
 				if (!strcmp(args[0], "cd"))
 				{					//if cd
